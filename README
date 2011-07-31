@@ -1,13 +1,10 @@
 Mierdium Framework! (o no-me-puedo-creer-que-lo-hayan-inventado-framework)
 
-Mierdium Framework nace algunos meses casi de forma esporadica. Tras años y años de hacer la misma basura al principio de cada proyecto, nuestro heroe, osea yo, decide unir todas
-esas clases de acceso a datos desperdigadas, todas esas funciones de control de errores y formar un pequeño framework para uso personal. 
+Mierdium Framework nace algunos meses casi de forma esporadica. Tras años y años de hacer la misma basura al principio de cada proyecto, nuestro heroe, osea yo, decide unir todas esas clases de acceso a datos desperdigadas, todas esas funciones de control de errores y formar un pequeño framework para uso personal. 
 Y que mejor forma de aprender, mejorar y ser foco de burlas y criticas que compartirlo con el resto del mundo.
 
 Por supuesto, no recomiendo el uso de este framework en un entorno de produccion, me cuesta incluso recomendarlo para un entorno de desarrollo. Haganse una idea.
 
-El codigo esta completamente libre de licencias asi que podeis usarlo en casa, en el trabajo, sacar beneficio de el (JA!), o empapelar las paredes del garaje y no tendreis que
-preguntarme ni darme ningun credito. Lo que si os pido, es que si os da por mejorarlo o implementar nuevas funcionalidades, lo subais despues para que el resto de los mortales
-podamos disfrutar de esas mejoras.
+El codigo esta completamente libre de licencias asi que podeis usarlo en casa, en el trabajo, sacar beneficio de el (JA!), o empapelar las paredes del garaje y no tendreis que preguntarme ni darme ningun credito. Lo que si os pido, es que si os da por mejorarlo o implementar nuevas funcionalidades, lo subais despues para que el resto de los mortales podamos disfrutar de esas mejoras.
 
 Una ultima cosa, el nombre (si, ya) no fue idea mia, sino de Javi González, que tuvo la bondad de iluminarme con su creatividad cuando decidimos dejar de llamarlo "la cosa esa".
