@@ -1,0 +1,7 @@
+input.button, button.button { padding: 4px 12px;  width: auto; overflow: visible; } /* ie 8 */
+* html .button { margin-right: 5px; padding: 2px 12px; } /* ie 7 */
+input.button span, button.button span { vertical-align: bottom; margin-bottom: -2px; }
+.ui-date {  }
+a.button.no-text { line-height: 0; height: 24px; overflow: visible; }
+.form input[type=text]:after, .form input[type=password]:after, .form input[type=email]:after, .form input[type=time]:after, .form .ui-date:after, .form textarea:after, .form .ui-select:after, .form .ui-file:after {
+    visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }

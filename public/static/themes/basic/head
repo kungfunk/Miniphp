@@ -1,0 +1,17 @@
+<?php
+$head = '<link href="'.DOC_URL.'/static/themes/basic/css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="'.DOC_URL.'/static/themes/basic/css/fonts.css" rel="stylesheet" type="text/css" />
+        <link href="'.DOC_URL.'/static/themes/basic/css/960.css" rel="stylesheet" type="text/css" />
+        <link href="'.DOC_URL.'/static/themes/basic/css/elements.css" rel="stylesheet" type="text/css" />
+        <link href="'.DOC_URL.'/static/themes/basic/css/colors.css" rel="stylesheet" type="text/css" />
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" media="screen" href="'.DOC_URL.'/static/themes/basic/css/ie.css" />
+        <script type="text/javascript" src="'.DOC_URL.'/static/themes/basic/js/IE9.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="'.DOC_URL.'/static/themes/basic/js/jquery.tools.min.js"></script>
+        <script type="text/javascript" src="'.DOC_URL.'/static/themes/basic/js/jquery.ui.min.js"></script>
+        <script type="text/javascript" src="'.DOC_URL.'/static/themes/basic/js/jquery.tables.js"></script>
+        <script type="text/javascript" src="'.DOC_URL.'/static/themes/basic/js/jquery.simplemodal.1.4.1.min.js"></script>
+        <script type="text/javascript" src="'.DOC_URL.'/static/themes/basic/js/ajaxfileupload.js"></script>
+        <script type="text/javascript" src="'.DOC_URL.'/static/themes/basic/js/global.js"></script>';
+?>

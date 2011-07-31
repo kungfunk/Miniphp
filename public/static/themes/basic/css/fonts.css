@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'MgOpenModernaBold';
+    src: url('mgopenmodernabold-webfont.eot');
+    src: url('mgopenmodernabold-webfont.eot?iefix') format('eot'),
+         url('mgopenmodernabold-webfont.woff') format('woff'),
+         url('mgopenmodernabold-webfont.ttf') format('truetype'),
+         url('mgopenmodernabold-webfont.svg#webfontp3MYuuJc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

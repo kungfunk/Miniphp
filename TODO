@@ -1,0 +1,7 @@
+TODO:
+* Adoptar el sistema 960 grid como base para la maquetacion, independientemente
+  del theme css.
+* Mejorar la integracion AJAX (jquery)
+* Completar el sistema de Themes css
+* Implementar el Auth->impersonate
+* Bug en la edicion de usuario al editar sin cambiar el password

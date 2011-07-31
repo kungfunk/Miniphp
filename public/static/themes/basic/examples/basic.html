@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test de themes/basic</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="../css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="../css/fonts.css" rel="stylesheet" type="text/css" />
+        <link href="../css/960.css" rel="stylesheet" type="text/css" />
+        <link href="../css/elements.css" rel="stylesheet" type="text/css" />
+        <link href="'../css/colors.css" rel="stylesheet" type="text/css" />
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" media="screen" href="../css/ie.css" />
+        <script type="text/javascript" src="../js/IE9.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="../js/jquery.tools.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.ui.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.tables.js"></script>
+        <script type="text/javascript" src="../js/jquery.simplemodal.1.4.1.min.js"></script>
+        <script type="text/javascript" src="../js/ajaxfileupload.js"></script>
+        <script type="text/javascript" src="../js/global.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+        <div class="container_12 clearfix">
+            <div class="container grid_6">
+                <div class="header">
+                    <h2>Formularios</h2>
+                </div>
+                <div class="content">
+                    <form class="form">
+                        <div class="message info">
+                            <p>Esto requiere explicacion a parte.</p>
+                        </div>
+                        <div>
+                            <label>nombre <em>*</em><small>Descripcion aqui</small></label><input type="text" name="name" required="required" />
+                        </div>
+                        <div>
+                            <label>Email <em>*</em><small>Email valido</small></label><input type="email" required="required" />
+                        </div>
+
+                        <div>
+                            <label>Calendario<small>dd/mm/yyyy</small></label><input type="date" name="date" />
+                        </div>
+                        <div>
+                            <label>usuario <em>*</em><small>Maximo 12 caracteres</small></label><input type="text" name="username" required="required" maxlength="12" />
+                        </div>
+                        <div>
+                            <label>Password<small>max. 30 char.</small></label><input type="password" name="password" maxlength="30" />
+                        </div>
+                        <div>
+                            <label>web <em>*</em><small>url</small></label><input type="url" required="required" />
+                        </div>
+                        <div>
+                            <label>select<small>Bien bien bongo</small></label><select><option>Opcion 1</option><option>Opcion 2</option><option>Opcion 3</option></select>
+                        </div>
+
+                        <div>
+                            <label>Archivo<small>Ojo al js de esto</small></label><input type="file" />
+                        </div>
+                        <div class="action clearfix">
+                            <button class="button button-gray" type="submit"><span class="accept"></span>OK</button>
+                            <button class="button button-gray" type="reset">Reset</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container grid_6">
+                <div class="header">
+                    <h2>Botones bien chulos</h2>
+                </div>
+                <div class="content">
+                    <button class="button button-gray">Gris lunes</button>
+                    <button class="button button-orange">Naranja mecanica</button>
+                    <button class="button button-red">Rojo vodafone</button>
+                    <button class="button button-blue">Blues de detroit</button>
+                    <button class="button button-green">Ecoboton</button>
+
+                    <h3 class="leading">Botones con icono</h3>
+                    <p>Usan el pack fam-fam de iconos</p>
+                    <button class="button button-gray"><span class="add"></span>Añadir</button>
+                    <button class="button button-red"><span class="pencil"></span>Editar</button>
+                    <button class="button button-blue"><span class="disk"></span>Guardar</button>
+                    <button class="button button-orange"><span class="bin"></span>Borrar</button>
+                    <button class="button button-green"><span class="accept"></span>Acceptar</button>
+                    <button class="button button-gray"><span class="calendar"></span>Calendario</button>
+                    <button class="button button-gray"><span class="help"></span>Ayuda</button>
+                    <button class="button button-gray"><span class="view-list"></span>Lista</button>
+                    <button class="button button-gray"><span class="view-grid"></span>Grid</button>
+
+                    <h3>Botones con icono sin texto</h3>
+                    <ul class="action-buttons clearfix">
+                        <li><a href="#" class="button button-gray no-text" title="Add"><span class="add"></span></a></li>
+
+                        <li><a href="#" class="button button-gray no-text" title="Edit"><span class="pencil"></span></a></li>
+                        <li><a href="#" class="button button-gray no-text" title="Save"><span class="disk"></span></a></li>
+                        <li><a href="#" class="button button-gray no-text" title="Delete"><span class="bin"></span></a></li>
+                        <li><a href="#" class="button button-gray no-text" title="OK"><span class="accept"></span></a></li>
+                        <li><a href="#" class="button button-gray no-text" title="Calendar"><span class="calendar"></span></a></li>
+                        <li><a href="#" class="button button-gray no-text" title="Help"><span class="help"></span></a></li>
+                        <li><a href="#" class="button button-gray no-text" title="List View"><span class="view-list"></span></a></li>
+                        <li><a href="#" class="button button-gray no-text" title="Grid View"><span class="view-grid"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container grid_6">
+                <div class="header">
+                    <h2>Paginacion</h2>
+                </div>
+                <div class="content">
+                    <p>En varios y sugerentes colores!</p>
+                    <ul class="pagination clearfix">
+                        <li class="Primera"><a class="button-gray" href="#">Primera</a></li>
+                        <li class="prev"><a class="button-gray" href="#">&laquo;</a></li>
+                        <li class="page"><a class="button-gray" href="#">1</a></li>
+                        <li class="page"><a class="button-gray" href="#">2</a></li>
+
+                        <li class="page"><a class="button-gray" href="#">3</a></li>
+                        <li class="page"><a class="button-gray" href="#">4</a></li>
+                        <li class="page"><a class="button-gray" href="#">5</a></li>
+                        <li class="next"><a class="button-gray" href="#">&raquo;</a></li>
+                        <li class="Ultima"><a class="button-gray" href="#">Ultima</a></li>
+                    </ul>
+                    <ul class="pagination clearfix">
+
+                        <li class="Primera"><a class="button-orange" href="#">Primera</a></li>
+                        <li class="prev"><a class="button-orange" href="#">&laquo;</a></li>
+                        <li class="page"><a class="button-orange" href="#">1</a></li>
+                        <li class="page"><a class="button-orange" href="#">2</a></li>
+                        <li class="page"><a class="button-orange" href="#">3</a></li>
+                        <li class="page"><a class="button-orange" href="#">4</a></li>
+
+                        <li class="page"><a class="button-orange" href="#">5</a></li>
+                        <li class="next"><a class="button-orange" href="#">&raquo;</a></li>
+                        <li class="Ultima"><a class="button-orange" href="#">Ultima</a></li>
+                    </ul>
+                    <ul class="pagination clearfix">
+                        <li class="Primera"><a class="button-red" href="#">Primera</a></li>
+                        <li class="prev"><a class="button-red" href="#">&laquo;</a></li>
+
+                        <li class="page"><a class="button-red" href="#">1</a></li>
+                        <li class="page"><a class="button-red" href="#">2</a></li>
+                        <li class="page"><a class="button-red" href="#">3</a></li>
+                        <li class="page"><a class="button-red" href="#">4</a></li>
+                        <li class="page"><a class="button-red" href="#">5</a></li>
+                        <li class="next"><a class="button-red" href="#">&raquo;</a></li>
+
+                        <li class="Ultima"><a class="button-red" href="#">Ultima</a></li>
+                    </ul>
+                    <ul class="pagination clearfix">
+                        <li class="Primera"><a class="button-blue" href="#">Primera</a></li>
+                        <li class="prev"><a class="button-blue" href="#">&laquo;</a></li>
+                        <li class="page"><a class="button-blue" href="#">1</a></li>
+                        <li class="page"><a class="button-blue" href="#">2</a></li>
+
+                        <li class="page"><a class="button-blue" href="#">3</a></li>
+                        <li class="page"><a class="button-blue" href="#">4</a></li>
+                        <li class="page"><a class="button-blue" href="#">5</a></li>
+                        <li class="next"><a class="button-blue" href="#">&raquo;</a></li>
+                        <li class="Ultima"><a class="button-blue" href="#">Ultima</a></li>
+                    </ul>
+                    <ul class="pagination clearfix">
+
+                        <li class="Primera"><a class="button-green" href="#">Primera</a></li>
+                        <li class="prev"><a class="button-green" href="#">&laquo;</a></li>
+                        <li class="page"><a class="button-green" href="#">1</a></li>
+                        <li class="page"><a class="button-green" href="#">2</a></li>
+                        <li class="page"><a class="button-green" href="#">3</a></li>
+                        <li class="page"><a class="button-green" href="#">4</a></li>
+
+                        <li class="page"><a class="button-green" href="#">5</a></li>
+                        <li class="next"><a class="button-green" href="#">&raquo;</a></li>
+                        <li class="Ultima"><a class="button-green" href="#">Ultima</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="container grid_6">
+                <div class="header">
+                    <h2>Notificaciones In-line</h2>
+                </div>
+                <div class="content">
+                    <div class="message info">
+                        <h3>Information</h3>
+                        <p>Tienes la oportunidad de hacerlo bien</p>
+                    </div>
+                    <div class="message success">
+                        <h3>Success!</h3>
+                        <p>Lo has hecho bien!</p>
+                    </div>
+                    <div class="message warning">
+                        <h3>Warning!</h3>
+                        <p>Lo estas intentado hacer mal</p>
+                    </div>
+                    <div class="message error">
+                        <h3>Error!</h3>
+                        <p>Lo estas haciendo mal</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container grid_6">
+                <div class="header">
+                    <h2>Texto</h2>
+                </div>
+                <div class="content">
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus fringilla urna, vel venenatis dui mattis at. Mauris tempus adipiscing sem, ut lobortis nunc faucibus malesuada. Praesent nec quam quam. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla massa purus, blandit quis volutpat vitae, dapibus et elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin aliquet laoreet sodales. Aliquam fringilla nibh sed massa eleifend ornare. Donec vestibulum diam ut nisi venenatis vitae placerat ante rhoncus. Pellentesque faucibus mollis iaculis. Mauris viverra imperdiet cursus. Cras gravida tincidunt ligula eu feugiat. Pellentesque mattis ultrices metus, sed consequat felis auctor a. Quisque quis pellentesque nibh. Morbi quis posuere massa.
+
+In nulla leo, laoreet nec varius eget, porta in nibh. Vivamus imperdiet ante vitae felis semper commodo. Vivamus gravida lectus id purus pellentesque tincidunt. Duis sed diam id mauris varius fringilla vitae quis arcu. Curabitur in sapien lacus. Praesent ac augue nisi. Praesent sed ligula ipsum, quis accumsan sem. Donec ut leo elit. Sed et magna justo, tincidunt facilisis diam. Vivamus eu purus elit, sit amet semper est. Sed aliquam dignissim purus, at mattis purus tristique sit amet. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
